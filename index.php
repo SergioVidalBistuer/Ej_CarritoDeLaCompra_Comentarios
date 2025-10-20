@@ -12,7 +12,8 @@ require_once 'precios.php';
 
 <h2>Selecciona productos de electrónica</h2>
 
-<form action="procesar.php" method="POST"> // para enviar datos a clase procesar con método POST
+<form action="procesar.php" method="POST"> // a traves de un formulario
+    para enviar datos a clase procesar con método POST
 
     <?php  //array asociativo
     $precios = [
@@ -30,7 +31,8 @@ require_once 'precios.php';
 
         /* ahora viene el bloque contenedor (div), esto se usa para agrupar elementos relacionados
         foreach*/
-        <div class="producto">
+
+        <div class="producto"> //es el contenedor como un cajon donde van las cosas
             <label> // sirve para poner texto descriptivo a un input
 
                 /* ESTOY PONIENDO LO QUE SIGNIFICA CADA PARTE DE ABAJO.
